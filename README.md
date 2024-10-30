@@ -151,22 +151,16 @@ If using FFLM, please preprocess:
 ## Evaluator I/O format
 
 ```json
-// Input *.jsonl file:
 {
-    // filter.py
-    "lang": "Python",                  // language(s) involved
-    "input": "Implement hello world.", // input
-    "gold": "print('Hello, world!')",  // ground-truth output
-    
-    // sample.py does not add any additional keys
-    // respond.py
-    "index": 3,                        // index in dataset
-    "llm": "ds-55m"                    // abbreviation of llm that generates the output
-    "output": "print('helloworld')",   // output
+    "lang": "Python",
+    "input": "Implement hello world.",
+    "gold": "print('Hello, world!')",
 
-    // 4_*_*.py
-    "judgment": "Overall: 4.5/5",      // LLM-annotated evaluation
-    "score": 4.5,                      // score extracted from 'judgment'
+    "index": 3,
+    "llm": "ds-55m"
+    "output": "print('helloworld')",
+
+    "judgment": "Overall: 4.5/5",
+    "score": 4.5,
 }
 ```
-
