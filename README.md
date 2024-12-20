@@ -1,7 +1,7 @@
 # LLM-as-a-Judge Empirical Study
 
 This is the repository for the paper `Can LLMs Replace Human Evaluators? An Empirical Study of
-LLM-as-a-Judge in Software Engineering`.
+LLM-as-a-Judge in Software Engineering`, accepted by ISSTA 2025.
 
 
 
